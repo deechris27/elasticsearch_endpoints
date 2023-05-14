@@ -1,0 +1,23 @@
+{
+    "route": "/subscription",
+    "method": "POST",
+    "Header": {
+        "Data Type": "string",
+        "Description": "Sample Header",
+        "Required": " true",
+        "Properties": "order_id"
+    },
+    "Schema": {
+        "Data Type": "string",
+        "Description": "Sample Header",
+        "Required": " true",
+        "Properties": "order_id"
+    },
+    "description": "sample for subscription route",
+    "Error": {
+        "Description": "Description for 200",
+        "Message": "Success",
+        "Code": "200"
+    },
+    "auth-strategy": "x-auth"
+}
